@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth:400,700&display=swap');
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Amaranth', sans-serif;
+
+
+html { box-sizing: border-box;}
+* { box-sizing: border-box;}
+
+p, span, ul, li, ol, a, form, input, select, button, div, body, html{ margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, p{ font-family: 'Poppins', sans-serif; margin: 0; padding: 0;}
+
+.container{ max-width: 600px; margin: 0 auto; padding: 0;}
+/*.row{ margin-left: -35px; margin-right: -35px;}*/
+/*.col{ margin-left: 35px; margin-right: 35px;}*/
+.header{ width: 100%; display: inline-block;}
+
+
+
+
+
+
+
+/* --------------Adult-card-template-start------------ */
+.adultContent{ background: url("../images/images_cards/adultcardbg.png") center 0 no-repeat; background-size: 100%; padding:35px; width: 100%; display: inline-block;}
+.adultTop{ width: 100%; display: inline-block; position: relative; margin-top: 120px;}
+.profileImgBg{ position: relative; left: 23px; top: 15px; float: left; width: auto;}
+.profileImg{ width: 150px; height: 150px; background-color: #fff; box-shadow: 0 0 5px #777777; padding: 0px; border-radius: 100px; overflow: hidden; text-align: center; border: 5px solid #fff;}
+.profileImg img{ border-radius: 100px; width: 100%;height: 100%; object-fit: cover;}
+.profileImgBg h3{ font-size: 24px; font-weight: 500; color: #3e3e3e; padding-top: 15px;}
+
+.logoBg{ float: right; width: auto; margin-top: 120px;}
+.adultTxt{ width: 100%; display: inline-block;}
+.adultTxt h4{ font-family: 'Work Sans', sans-serif; font-size: 20px; font-weight: 600; color: #000e78; padding-bottom: 10px;}
+.adultTxt p{ font-size: 18px; line-height: 26px; font-weight: 300; color: #4a4239;}
+.venueBg{ width: 100%; display: inline-block; margin-top: 46px;}
+.venueBg img{ float: left; margin: 0 15px 30px 0;}
+.venueTxt{ float: left; width: auto;}
+.venueTxt h4{ font-family: 'Work Sans', sans-serif; font-size: 18px; font-weight: 500; color: #ff415b; text-transform: uppercase; letter-spacing: 2px;}
+.venueTxt p{ font-size: 16px; line-height: 26px; font-weight: 500; color: #5c5c5c; padding-bottom: 10px;}
+.venueTxt p strong{ font-family: 'Work Sans', sans-serif; font-size: 18px; line-height: 26px; font-weight: 600; color: #000000;}
+.formBg{
+    width: 100%;
+    display: inline-block;
+}
+.formTop{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 20px 0px 10px 0px;
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 0%, #f3f3f3 50%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #ffffff 0%,#f3f3f3 50%,#ffffff 100%);
+    background: linear-gradient(to right, #ffffff 0%,#f3f3f3 50%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 );
+}
+.formSec{ background-color: #fff; padding: 10px 40px; width: 100%; display: inline-block; margin-bottom: 10px;}
+.formSec span, .formSec textarea{ font-family: 'Poppins', sans-serif; font-size: 16px; line-height: 32px; font-weight: 300; color: #5c5c5c;}
+.formSec textarea{ border: none; outline: none; width: 100%; resize: none; height: 37px;}
+.formBg select{ width: auto; background-color: #fff; padding: 5px; float: right;  border: none; outline: none;
+font-family: 'Poppins', sans-serif; font-size: 16px; line-height: 24px; font-weight: 300; color: #5c5c5c;}
+.btnSubmit{ width: 100%; text-align: center;}
+.btnSubmit button{ background-color: #171719; font-family: 'Work Sans', sans-serif; font-size: 17px; font-weight: 300; color: #ffffff; text-transform: uppercase; letter-spacing: 2px; border: none; outline: none; cursor: pointer; padding: 20px 45px; border-radius: 100px;}
+.btnSubmit button:hover{ background-color: #d10607;}
+.thankUsec{ width: 100%; display: inline-block; text-align: center; margin-top: 35px;}
+.thankUsec h2{ font-family: 'Work Sans', sans-serif; font-size: 30px; font-weight: 300; color: #171719; padding-bottom: 10px;}
+.thankUsec p{ font-size: 18px; font-weight: 300; color: #5c5c5c; }
+.thankUsec p strong{ font-weight: 400; color: #000000;}
+.thankUsec h1{ font-family: 'Work Sans', sans-serif; font-size: 30px; font-weight: 500; color: #d10607; padding-bottom: 10px; text-transform: uppercase;}
+.footer1{ width: 100%; display: inline-block; text-align: center; background: url("../images/images_cards/footerImg.png") center 0 no-repeat; background-size: cover; padding: 20px;}
+.footer1 p{ font-size: 17px; line-height: 23px; font-weight: 300; color: #ffffff;}
+
+/* --------------Adult-card-template-end------------ */
+
+
+/* --------------Birthday-card-template-start------------ */
+.bcContent{ background: url("../images/images_cards/bcbg.png") center 0 no-repeat; background-size: 100%; padding:35px; width: 100%; display: inline-block;}
+.footer2{ width: 100%; height: 135px; display: inline-block; text-align: center; background: url("../images/images_cards/bcfooter.png") center bottom no-repeat; background-size: 100%; padding: 20px;}
+.footer2 p{ font-family: 'Work Sans', sans-serif; font-size: 18px; font-weight: 400; color: #4a4239;}
+.bLogo{ width: 100%; text-align: center;}
+.bProfile{ width: 100%; display: inline-block; text-align: center; padding-top: 20px;}
+.bprofileImg{ width: 150px; height: 150px; background-color: #fff; box-shadow: 0 0 5px #777777; padding: 0px; border-radius: 100px; overflow: hidden; text-align: center; margin: 0 auto; border: 5px solid #fff;}
+.bprofileImg img{ border-radius: 100px; width: 100%;height: 100%;object-fit: cover;}
+.bcTxt{ text-align: center;}
+.dearJohn{ width: auto; margin-top: -13px; margin-bottom: 10px;}
+.dearJohn h3{ font-family: 'Amaranth', sans-serif; font-size: 30px; line-height: 36px; font-weight: 400; color: #633a18; background: url("../images/images_cards/johnbg.png") center 0 no-repeat; padding: 14px 52px; display: inline-block; background-size: cover;}
+.venueBtn{ width: 100%; display: inline-block; text-align: center; background: url("../images/images_cards/venuebg.png") center 0 no-repeat; height: 70px; margin: 20px 0;}
+.venueBtn a{ font-family: 'Work Sans', sans-serif; font-size: 16px; line-height: 22px; font-weight: 500; color: #ffffff; display: inline-block; background: url("../images/images_cards/venueBtn.png") center 0 no-repeat; text-decoration: none; text-transform: uppercase; padding: 12px 38px; letter-spacing: 2px; background-size: cover; margin-top: 15px;}
+.bVenue{ text-align: center; margin-top: 0;}
+.bVenue .venueTxt{ width: 100%; display: inline-block;}
+
+.nobg{ background:none; margin-bottom: 0px;}
+.formSecB{ background: url("../images/images_cards/select.png") center 0 no-repeat; padding: 32px 45px; position: relative;}
+.formSecB::after{ content: ""; position: absolute; z-index:0; right: 39px; top: 47px; background: url("../images/images_cards/arrw.png") 0 0 no-repeat; width: 24px; height: 19px;}
+.formSecB span{ margin-top: 5px; display: inline-block; font-size: 17px; font-weight: 400;}
+.formSecC{ background: url("../images/images_cards/txrarea.png") center 0 no-repeat; padding: 32px 45px;}
+.formSecC textarea{ margin-top: 5px; font-size: 17px; font-weight: 400;}
+.formSecB select{ font-size: 24px; line-height: 30px; position: relative;}
+.btnSubmitB{ width: 100%; display: inline-block; text-align: center;}
+.btnSubmitB button{ background-color: #0b1347; font-family: 'Work Sans', sans-serif; font-size: 17px; font-weight: 300; color: #ffffff; text-transform: uppercase; letter-spacing: 2px; border: none; outline: none; cursor: pointer; padding: 20px 45px; border-radius: 100px;
+        box-shadow: 0 3px 5px #909090;
+    border-bottom: 4px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.btnSubmitB button:hover{ background-color: #ffdd00; color: #0b1347;}
+
+.thankUsecB{ width: 100%; display: inline-block; text-align: center; margin-top: 35px;}
+.thankUsecB h2{ font-family: 'Amaranth', sans-serif; font-size: 30px; font-weight: 400; color: #4c4b4b; padding-bottom: 10px;}
+.thankUsecB p{ font-size: 18px; font-weight: 400; color: #5c5c5c; }
+.thankUsecB p strong{ font-weight: 400; color: #000000;}
+.thankUsecB h1{ font-family: 'Work Sans', sans-serif; font-size: 30px; font-weight: 500; color: #d10607; padding-bottom: 10px; text-transform: uppercase;}
+.besrR{ display: inline-flex; line-height: 35px; font-weight: 500!important;}
+.besrR img{ margin: 0 10px;}
+/* --------------Birthday-card-template-end------------ */
+
+/* --------------Wedding-card-template-start------------ */
+.wedContent{ background: url("../images/images_cards/wedding.png") center 0 no-repeat; background-size: 100%; padding:35px; width: 100%; display: inline-block;}
+.cLogo{ width: 100%; text-align: center; margin-top: 87px;}
+.cprofile{ padding-top: 0;}
+.cprofileImg{ width: 106px; height: 106px;}
+.weddingRibon{ width: 100%; text-align: center; margin-top: -34px;}
+.cprofile h3{ font-size: 24px; line-height: 30px; font-weight: 500; color: #633a18; padding-top: 15px; padding-bottom: 10px;}
+.weddingTxt h4{ font-family: 'Poppins', sans-serif; font-size: 20px; line-height: 26px; font-weight: 400; color: #000e78;}
+.divider{ width: 100%; display: inline-block; text-align: center; margin: 20px 0 0 0;}
+.weddingVenue img{ float: none; margin: 0;}
+.weddingVenue .venueTxt h4{ color: #633a18; padding-bottom: 10px;}
+.weddingVenue .venueTxt p{ font-weight: 300; padding: 0;}
+.weddingVenue .venueTxt p strong{ font-size: 16px;}
+.formbgC{ margin: 15px 0; padding: 0 25px;}
+.wdFormBg{ width: 100%; border-radius: 100px; border: 1px solid #ccc; padding: 6px; height: 69px; margin-bottom: 10px;}
+.wdFormBg span{ font-family: 'Poppins', sans-serif; font-size: 16px; line-height: 22px; font-weight: 300; color: #989898;
+margin-left: 15px;
+    margin-top: 17px;
+    display: inline-block;
+}
+.wdFormBg select{ background-color: #e7e7e7; font-family: 'Poppins', sans-serif; font-size: 16px; line-height: 22px; font-weight: 300; color: #5c5c5c; border-radius: 100px; padding: 15px 25px;}
+.wdFormBg textarea{
+font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #989898;
+    margin-left: 15px;
+    display: inline-block;
+    width: 90%;
+    border: none;
+    resize: none;
+    height: 34px;
+    margin-top: 15px;
+}
+.btnSubC{ margin-top: 20px;}
+.btnSubC button{
+    background: #8d1606;
+background: -moz-linear-gradient(left, #8d1606 0%, #d90407 100%);
+background: -webkit-linear-gradient(left, #8d1606 0%,#d90407 100%);
+background: linear-gradient(to right, #8d1606 0%,#d90407 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d1606', endColorstr='#d90407',GradientType=1 );
+}
+.btnSubC button:hover{ color: #fff;
+background: #d90407;
+background: -moz-linear-gradient(left, #d90407 1%, #8d1606 100%, #8d1606 100%);
+background: -webkit-linear-gradient(left, #d90407 1%,#8d1606 100%,#8d1606 100%);
+background: linear-gradient(to right, #d90407 1%,#8d1606 100%,#8d1606 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d90407', endColorstr='#8d1606',GradientType=1 );
+}
+.thankUsecC{ margin-top: 10px;}
+.thankUsecC p{ font-weight: 300;}
+.footer3{ width: 100%; display: inline-block; text-align: center; background: url("../images/images_cards/foot3.png") right bottom no-repeat; }
+.footer3 p.lastSize{
+font-weight: 300;
+    font-size: 14px;
+    color: #4a4239;
+    border-top: 1px solid #ccc;
+    padding-top: 31px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+/* --------------Wedding-card-template-end------------ */
